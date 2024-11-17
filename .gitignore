@@ -12,6 +12,7 @@ venv/
 ENV/
 .venv/
 .VENV/
+.venv*/
 
 # Distribution / packaging
 .Python
@@ -105,3 +106,6 @@ Desktop.ini
 *~
 *.swp
 *.swo
+
+#Environment file
+.env
