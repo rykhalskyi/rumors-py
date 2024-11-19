@@ -9,6 +9,9 @@ from langchain_core.messages import SystemMessage, AIMessage, HumanMessage, Tool
 
 from rumors_supervised_graph import create_graph
 
+from dotenv import load_dotenv
+load_dotenv()
+
 @st.cache_resource
 def create_chatbot_instance():
     return create_graph()

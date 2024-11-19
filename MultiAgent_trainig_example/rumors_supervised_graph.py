@@ -16,6 +16,10 @@ from typing import Annotated
 from langchain_openai import ChatOpenAI
 
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 ### --------------------- LLM ------------------------------------
 
