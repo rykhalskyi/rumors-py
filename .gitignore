@@ -110,3 +110,10 @@ Desktop.ini
 
 #Environment file
 .env
+/PostAgent/.vs/*
+/PostAgent/PostAgent/bin/*
+/PostAgent/PostAgent/obj/*
+/Rumors.SimpleOutlookClassicAddIn/.vs/*
+/Rumors.SimpleOutlookClassicAddIn/bin/*
+/Rumors.SimpleOutlookClassicAddIn/obj/*
+/Rumors.SimpleOutlookClassicAddIn/packages/*
